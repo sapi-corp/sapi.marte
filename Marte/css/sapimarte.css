@@ -1,7 +1,11 @@
 body{
     background: #f8f8f8 !important;
 }
+.sapi-color-bg{
+    background: var(--sapi) !important;
+}
 :root{
+    --sapi:#F2F2F2;
     --m1-azul: #0010BD;
     --m2-azul: #000A80;
     --m3-azul: #0015FF;
