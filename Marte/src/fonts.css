@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&display=swap');
+.ff-ro{
+    font-family: 'Roboto Mono', monospace;    
+}
+.fs-12{
+    font-size: 12px;
+}.fs-13{
+    font-size: 13px;
+}.fs-14{
+    font-size: 14px;
+}.fs-15{
+    font-size: 15px;
+}
