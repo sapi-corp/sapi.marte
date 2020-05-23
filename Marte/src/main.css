@@ -1,0 +1,52 @@
+body{
+    padding: 0px;
+    margin-left: 240px;
+    /* margin-right: 240px; */
+    margin-top: 55px;    
+}
+.marte-navegacion{
+    width: 240px;
+    min-width: 240px;
+    height: 100vh;
+    left: 0;bottom: 0;top: 55px;
+    position: fixed;
+    overflow: auto;
+    scrollbar-width: thin;
+}
+.marte-1{
+    margin-left: -240px;
+    left: 240px;
+}
+.marte-navegacion, .marte-navegacion-modal::-webkit-scrollbar{
+    width: 10px;  }
+.marte-navegacion, .marte-navegacion-modal::-webkit-scrollbar-thumb {
+	background-color:#BFBFBF;
+	border-radius: 6px;
+    width: 5px;}
+/* .marte-navegacion:hover {
+    overflow-y: scroll;  } */
+    @media ( max-width : 650px) {
+        body {
+            margin-left: 0px;
+        }
+        .marte-navegacion {
+            display: none;
+        }
+        .marte-1{
+            margin-left: 0px;
+            left: 0px;
+        }
+    }
+    /*################# COLORES DE CODIGO #################*/
+    .lightblue{
+        color: #BFBFBF;
+    }
+    .blue{
+        color: blue;
+    }
+    .red{
+        color: red;
+    }
+    .black{
+        color: black;
+    }
