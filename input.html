@@ -9,7 +9,16 @@
     <link rel="stylesheet" href="Marte/css/sapimarte.css">
     <link rel="stylesheet" href="Marte/src/main.css">
     <link rel="stylesheet" href="Marte/css/fonts.css">
+    <link rel="stylesheet" href="Marte/fonts/fontawesome.min.css">
 
+
+    <style type="text/css">
+    .fa-address-card{
+        color:white;
+        font-size: 22px;
+    }
+
+    </style>
 </head>
 
 <body>
@@ -33,13 +42,6 @@
                 <a class="nav-link" href="https://github.com/sapi-corp/sapi.marte.git">Github</a>
             </li>
         </ul>
-        <!-- <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button> -->
-        <!-- <div class="collapse navbar-collapse" id="navbarNav" style="font-size: 14px;">
-
-        </div> -->
     </nav>
 
     <div class="container-fluid">
@@ -59,17 +61,46 @@
                     <a class="nav-link active p-0 ml-3" href="input.html">input</a>
                 </li>
                 <li class="nav-item ">
-                    <a class="nav-link active p-0 ml-3" href="input.html">file</a>
+                    <a class="nav-link active p-0 ml-3" href="file.html">file</a>
                 </li>
             </ul>
         </div>
-    </div>
 
 
-    <script src="https://kit.fontawesome.com/d86142c387.js" crossorigin="anonymous"></script>
-    <script src="bootstrap_4.4/js/jquery-3.3.1.slim.min.js"></script>
-    <script src="bootstrap_4.4/js/popper.min.js"></script>
-    <script src="bootstrap_4.4/js/bootstrap.min.js"></script>
+
+        <div class="row">
+            <div class="col-6 sapi-color-bg mt-2 ml-3 pt-2">
+                <div class="form-group ">
+                    <input type="text" class="form-control fc-a-marte1" placeholder="First name">
+                </div>
+                <div class="form-group sapi-color-bg">
+                    <input type="text" class="form-control fc-a-marte2" placeholder="Last name">
+                </div>
+                <div class="form-group ">
+                    <input type="text" class="form-control fc-a-marte3" placeholder="Email">
+                </div>
+                <div class="form-group sapi-color-bg">
+                    <input type="password" class="form-control fc-a-marte4" id="exampleInputPassword1"
+                        placeholder="Password">
+                </div>
+                <div class="input-group">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text fc-a-marte5" id="basic-addon1"><i class="far fa-address-card"></i></span>
+                    </div>
+                    <input type="text" class="form-control fc-a-marte5" placeholder="Username" aria-label="Username"
+                        aria-describedby="basic-addon1">
+                </div>
+            </div>
+            <div class="col-6">
+
+            </div>
+        </div>
+
+
+        <script src="https://kit.fontawesome.com/d86142c387.js" crossorigin="anonymous"></script>
+        <script src="bootstrap_4.4/js/jquery-3.3.1.slim.min.js"></script>
+        <script src="bootstrap_4.4/js/popper.min.js"></script>
+        <script src="bootstrap_4.4/js/bootstrap.min.js"></script>
 </body>
 
 </html>
