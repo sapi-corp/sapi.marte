@@ -8,7 +8,7 @@ body{
     width: 240px;
     min-width: 240px;
     height: 100vh;
-    left: 0;bottom: 0;top: 55px;
+    left: 0;bottom: 0;top: 50px;
     position: fixed;
     overflow: auto;
     scrollbar-width: thin;

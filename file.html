@@ -9,14 +9,35 @@
     <link rel="stylesheet" href="Marte/css/sapimarte.css">
     <link rel="stylesheet" href="Marte/src/main.css">
     <link rel="stylesheet" href="Marte/css/fonts.css">
-
+    <style>
+        .image-preview {
+            width: 250px;
+            min-height: 100px;
+            border: 2px solid #dddddd;
+            margin-top: 15px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: bold;
+            color: #cccccc;
+        }
+        .image-preview__image {
+            display: none;
+            width: 100%;
+        }
+        #custom-text {
+            margin-left: 10px;
+            font-family: sans-serif;
+            color: #aaa;
+        }
+    </style>
 </head>
 
 <body>
-    <nav class="bg-light p-0 marte-1 fixed-top mt-2">
+    <nav class="p-0 marte-1 fixed-top" style="background: #4729A5 !important;">
         <ul class="nav" style="font-size: 14px;">
             <li class="">
-                <span><i style="font-size: 24px; margin-top: 10px;" class="fas fa-bars ml-4 mr-3"></i></span>
+                <i style="font-size: 24px; margin-top: 10px;" class="text-white fas fa-bars ml-4 mr-3"></i>
             </li>
             <li class="nav-item">
                 <a class="" href="index.html">
@@ -24,20 +45,20 @@
                 </a>
             </li>
             <li class="nav-item mt-1">
-                <a class="nav-link" href="index.html">documentacion</a>
+                <a class="nav-link text-white" href="index.html">documentacion</a>
             </li>
             <li class="nav-item mt-1">
-                <a class="nav-link" href="https://getbootstrap.com">bootstrap</a>
+                <a class="nav-link text-white" href="https://getbootstrap.com">bootstrap</a>
             </li>
             <li class="nav-item mt-1">
-                <a class="nav-link" href="https://github.com/sapi-corp/sapi.marte.git">Github</a>
+                <a class="nav-link text-white" href="https://github.com/sapi-corp/sapi.marte.git">Github</a>
             </li>
         </ul>
     </nav>
 
     <div class="container-fluid">
 
-        <div class="col-3 marte-navegacion bg-w-marte1">
+        <div class="col-3 marte-navegacion"  style="background: #F2F2F2 !important; border-radius: 0 !important;">
             <ul class="nav flex-column mt-4" style="font-size: 14px;">
                 <div class="col">
                     <input type="text" class="form-control form-control-sm" placeholder="search">
@@ -56,6 +77,24 @@
                 </li>
             </ul>
         </div>
+
+        <div class="row">
+            <div class="col-6">
+                <h3>Upload files</h3>
+                <form class="form" id="myForm">
+                    <input type="file" id="inpFile" name="inpFile" hidden="hidden">
+                    <button class="btn btn-w-marte3 mr-2" id="custom-button" type="button">Upload File</button>
+                    <span id="custom-text">chose...</span>
+                    <div class="image-preview" id="imagePreview">
+                        <img src="" alt="Image Preview" class="image-preview__image">
+                        <span class="image-preview__default-text">Image Preview</span>
+                    </div>
+                </form>
+            </div>
+            <div class="col-6">
+
+            </div>
+        </div>
     </div>
 
 
@@ -63,6 +102,7 @@
     <script src="bootstrap_4.4/js/jquery-3.3.1.slim.min.js"></script>
     <script src="bootstrap_4.4/js/popper.min.js"></script>
     <script src="bootstrap_4.4/js/bootstrap.min.js"></script>
+    <script src="Marte/js/sapimarte.js"></script>
 </body>
 
 </html>
