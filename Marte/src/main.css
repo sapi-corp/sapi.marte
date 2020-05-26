@@ -40,7 +40,7 @@ body{
 
 /* .marte-navegacion:hover {
     overflow-y: scroll;  } */
-    @media ( max-width : 650px) {
+    @media ( max-width : 900px) {
         body {
             margin-left: 0px;
         }
@@ -64,17 +64,4 @@ body{
     }
     .black{
         color: black;
-    }
-    /*###############  ESPACIOS PARA CODIGO EN HTML#########*/
-   .nt1{
-        margin-left: 30px;
-    }
-    .nt2{
-        margin-left: 60px;
-    }
-    .nt3{
-        margin-left: 90px;
-    }
-    .nt4{
-        margin-left: 120px;
     }
