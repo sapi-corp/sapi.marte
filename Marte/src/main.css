@@ -13,6 +13,11 @@ body{
     overflow: auto;
     scrollbar-width: thin;
 }
+.scroll-x{
+    position: relative;
+    overflow: auto;
+    scrollbar-width: thin;
+}
 .marte-1{
     margin-left: -240px;
     left: 240px;
@@ -23,6 +28,15 @@ body{
 	background-color:#BFBFBF;
 	border-radius: 6px;
     width: 5px;}
+
+.scroll-x::-webkit-scrollbar{
+        width: 10px;
+    }
+.scroll-x::-webkit-scrollbar-thumb {
+        background-color:#BFBFBF;
+        border-radius: 6px;
+        width: 5px;}
+
 /* .marte-navegacion:hover {
     overflow-y: scroll;  } */
     @media ( max-width : 650px) {

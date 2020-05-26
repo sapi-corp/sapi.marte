@@ -2,7 +2,23 @@
 .ff-ro{
     font-family: 'Roboto Mono', monospace;    
 }
-.fs-12{
+.fs-4{
+    font-size: 4px;
+}.fs-5{
+    font-size: 5px;
+}.fs-6{
+    font-size: 6px;
+}.fs-7{
+    font-size: 7px;
+}.fs-8{
+    font-size: 8px;
+}.fs-9{
+    font-size: 9px;
+}.fs-10{
+    font-size: 10px;
+}.fs-11{
+    font-size: 11px;
+}.fs-12{
     font-size: 12px;
 }.fs-13{
     font-size: 13px;
@@ -10,4 +26,10 @@
     font-size: 14px;
 }.fs-15{
     font-size: 15px;
+}.fs-16{
+    font-size: 16px;
+}.fs-17{
+    font-size: 17px;
+}.fs-18{
+    font-size: 18px;
 }
