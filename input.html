@@ -5,31 +5,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>marte corp sapi</title>
-    <link rel="stylesheet" href="/sapi.marte/bootstrap_4.4/css/bootstrap.min.css">
-    <link rel="stylesheet" href="/sapi.marte/Marte/css/sapimarte.css">
-    <link rel="stylesheet" href="/sapi.marte/Marte/src/main.css">
-    <link rel="stylesheet" href="/sapi.marte/Marte/css/fonts.css">
-    <style>
-        .image-preview {
-            width: 250px;
-            min-height: 100px;
-            border: 2px solid #dddddd;
-            margin-top: 15px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            font-weight: bold;
-            color: #cccccc;
-        }
-        .image-preview__image {
-            display: none;
-            width: 100%;
-        }
-        #custom-text {
-            margin-left: 10px;
-            font-family: sans-serif;
-            color: #aaa;
-        }
+    <link rel="stylesheet" href="bootstrap_4.4/css/bootstrap.min.css">
+    <link rel="stylesheet" href="Marte/css/sapimarte.css">
+    <link rel="stylesheet" href="Marte/src/main.css">
+    <link rel="stylesheet" href="Marte/css/fonts.css">
+    <link rel="stylesheet" href="Marte/fonts/fontawesome.min.css">
+
+
+    <style type="text/css">
+    .fa-address-card{
+        color:white;
+        font-size: 22px;
+    }
+
     </style>
 </head>
 
@@ -37,11 +25,11 @@
     <nav class="p-0 marte-1 fixed-top" style="background: #4729A5 !important;">
         <ul class="nav" style="font-size: 14px;">
             <li class="">
-                <i style="font-size: 24px; margin-top: 10px;" class="text-white fas fa-bars ml-4 mr-3"></i>
+                <span><i style="font-size: 24px; margin-top: 10px;" class="text-white fas fa-bars ml-4 mr-3"></i></span>
             </li>
             <li class="nav-item">
                 <a class="" href="index.html">
-                    <img src="/sapi.marte/Marte/img/logo-sapi___2.png" width="51" height="50" class="ml-2" loading="lazy">
+                    <img src="Marte/img/logo-sapi___2.png" width="51" height="50" class="ml-2" loading="lazy">
                 </a>
             </li>
             <li class="nav-item mt-1">
@@ -81,31 +69,41 @@
             </ul>
         </div>
 
+
+
         <div class="row">
-            <div class="col-6">
-                <h3>Upload files</h3>
-                <form class="form" id="myForm">
-                    <input type="file" id="inpFile" name="inpFile" hidden="hidden">
-                    <button class="btn btn-w-marte3 mr-2" id="custom-button" type="button">Upload File</button>
-                    <span id="custom-text">chose...</span>
-                    <div class="image-preview" id="imagePreview">
-                        <img src="" alt="Image Preview" class="image-preview__image">
-                        <span class="image-preview__default-text">Image Preview</span>
+            <div class="col-6 sapi-color-bg mt-2 ml-3 pt-2">
+                <div class="form-group ">
+                    <input type="text" class="form-control fc-a-marte1" placeholder="First name">
+                </div>
+                <div class="form-group sapi-color-bg">
+                    <input type="text" class="form-control fc-a-marte2" placeholder="Last name">
+                </div>
+                <div class="form-group ">
+                    <input type="text" class="form-control fc-a-marte3" placeholder="Email">
+                </div>
+                <div class="form-group sapi-color-bg">
+                    <input type="password" class="form-control fc-a-marte4" id="exampleInputPassword1"
+                        placeholder="Password">
+                </div>
+                <div class="input-group">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text fc-a-marte5" id="basic-addon1"><i class="far fa-address-card"></i></span>
                     </div>
-                </form>
+                    <input type="text" class="form-control fc-a-marte5" placeholder="Username" aria-label="Username"
+                        aria-describedby="basic-addon1">
+                </div>
             </div>
             <div class="col-6">
 
             </div>
         </div>
-    </div>
 
 
-    <script src="https://kit.fontawesome.com/d86142c387.js" crossorigin="anonymous"></script>
-    <script src="bootstrap_4.4/js/jquery-3.3.1.slim.min.js"></script>
-    <script src="bootstrap_4.4/js/popper.min.js"></script>
-    <script src="bootstrap_4.4/js/bootstrap.min.js"></script>
-    <script src="Marte/js/sapimarte.js"></script>
+        <script src="https://kit.fontawesome.com/d86142c387.js" crossorigin="anonymous"></script>
+        <script src="bootstrap_4.4/js/jquery-3.3.1.slim.min.js"></script>
+        <script src="bootstrap_4.4/js/popper.min.js"></script>
+        <script src="bootstrap_4.4/js/bootstrap.min.js"></script>
 </body>
 
 </html>
