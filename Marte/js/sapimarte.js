@@ -1,3 +1,18 @@
+// $(document).ready(function () {
+//     alert("hola");
+// });
+/*###############   FUNCIONAMIENTO DEL ICONO  ################*/
+
+// $("#btn-menu").click(function() {
+//     $(".menu-vertical").css("display","block");
+//     $(".menu-horizontal").css("left","240px");
+//     $("body").css("margin-left","240px");
+// });
+
+
+
+
+
 /*#################     CARGAR PAMATRO   ####################*/
 const realFileBtn = document.getElementById("inpFile");
 const customBtn = document.getElementById("custom-button");
@@ -36,3 +51,4 @@ inpFile.addEventListener("change", function () {
         previewImage.setAttribute("src", "");
     }
 });
+

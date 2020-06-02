@@ -16,7 +16,7 @@ body{
     background: #66C2CF;
     left: 240px;
 }
-.menu-vertical{
+.menu-vertical{    
     background: #66C2CF;
     width: 240px;
     min-width: 240px;
@@ -25,9 +25,11 @@ body{
     position: fixed;
     overflow: auto;
     scrollbar-width: thin;
+    transition: all 0.5s ease;
 }
 .menu-vertical::-webkit-scrollbar{
     width: 10px;  }
+
 .menu-vertical::-webkit-scrollbar-thumb {
 	background-color:#BFBFBF;
 	border-radius: 6px;
@@ -45,3 +47,15 @@ body{
             left: 0px;
         }
     }
+    /* @media ( max-width : 5000px) {
+        .menu-horizontal{
+            margin-left: 0px;
+            left: 0px;
+        }
+        .menu-vertical {
+            display: none;
+        }
+        body {
+            margin-left: 0px;
+        }
+    } */

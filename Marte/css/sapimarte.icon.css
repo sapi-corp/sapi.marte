@@ -13,7 +13,7 @@
     cursor: pointer;
     background:rgba(97, 183, 194, 0.705) !important;
     border-radius: 5px;
-    margin-left: 15px;
+	margin-left: 15px;
 }
 /*medio*/
 .bt-menu-trigger span {
